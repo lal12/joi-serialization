@@ -1,0 +1,30 @@
+{
+  "name": "joi-serialization",
+  "version": "1.0.0",
+  "description": "JOI serialization and deserialization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "joi",
+    "JOI",
+    "serialization",
+    "JSON",
+    "deserialization",
+    "undescribe",
+    "describe"
+  ],
+  "author": "Luca Lindhorst",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/joi": "^14.3.2",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "joi": "^14.3.1",
+    "mocha": "^6.0.2",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  }
+}
