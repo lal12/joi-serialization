@@ -1,10 +1,11 @@
 {
   "name": "joi-serialization",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "JOI serialization and deserialization.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha --bail --timeout 999999 --colors src/test.ts -r ts-node/register",
+    "prepublishOnly": "node_modules/.bin/tsc"
   },
   "keywords": [
     "joi",
@@ -16,15 +17,18 @@
     "describe"
   ],
   "author": "Luca Lindhorst",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@types/chai": "^4.1.7",
-    "@types/joi": "^14.3.2",
-    "@types/mocha": "^5.2.6",
+    "@types/chai": "^4.2.0",
+    "@types/joi": "^14.3.3",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.1",
     "chai": "^4.2.0",
-    "joi": "^14.3.1",
-    "mocha": "^6.0.2",
-    "ts-node": "^8.0.2",
-    "typescript": "^3.3.3333"
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "joi": "14.x"
   }
 }
