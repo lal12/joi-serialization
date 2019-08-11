@@ -1,6 +1,6 @@
 {
   "name": "joi-serialization",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "JOI serialization and deserialization.",
   "main": "lib/index.js",
   "scripts": {
