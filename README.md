@@ -1,5 +1,7 @@
 # JOI Serialization
 
+[![license](https://img.shields.io/github/license/lal12/joi-serialization)
+
 This lib can serialize and deserialize a JOI Schema into an arbitrary object, which could be saved as JSON e.g. in a Database.
 
 Typescript definitions are included.
