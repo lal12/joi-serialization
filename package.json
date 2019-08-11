@@ -30,5 +30,6 @@
   },
   "peerDependencies": {
     "joi": "14.x"
-  }
+  },
+  "repository": "https://github.com/lal12/joi-serialization"
 }
